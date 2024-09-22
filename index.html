@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scarica i File</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .container {
+            display: inline-block;
+            text-align: center;
+        }
+        .download-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .download-section img {
+            margin-right: 20px;
+        }
+        .download-button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .download-button:hover {
+            background-color: #45a049;
+        }
+        .gif-link {
+            display: block;
+            margin: 20px auto;
+        }
+        p {
+            font-size: 18px;
+            color: #333;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Prima sezione -->
+        <div class="download-section">
+            <img src="data/gv1.png" alt="Immagine Accanto al Bottone 1">
+            <a href="data/GVintiModpack.rar" download>
+                <button class="download-button">Scarica il Modpack</button>
+            </a>
+        </div>
+
+        <p>Devi prima scaricare forge 1.12.2<br>
+        e trascinare le mod decompresse<br>
+        nella cartella mod di minecraft "%appdata%"</p>
+
+        <!-- Seconda sezione -->
+        <div class="download-section">
+            <img src="data/curseforge-logo.png" alt="Immagine Accanto al Bottone 2">
+            <a href="data/Galacticraft Vinti.zip" download>
+                <button class="download-button">Scarica il Profile courseforge</button>
+            </a>
+        </div>
+
+        <p>Basta avere courseforge<br>
+        e puoi importare questo file<br>
+        come profilo<br></p>
+    </div>
+
+</body>
+</html>
